@@ -68,9 +68,14 @@ body {
   font-size: 2.9rem;
   font-weight: 700;
 }
-.pricing #price {
+.pricing #monthly-price {
   font-size: 2.9rem;
   font-weight: 700;
+}
+.pricing #yearly-price {
+  font-size: 2.9rem;
+  font-weight: 700;
+  display: none;
 }
 .pricing #zero {
   font-size: 2.9rem;
