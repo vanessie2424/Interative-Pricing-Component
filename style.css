@@ -39,6 +39,12 @@ body {
   align-items: center;
   flex-direction: column;
 }
+.title {
+  background-image: url("/images/pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
 .title h1 {
   text-align: center;
   font-weight: 700;
