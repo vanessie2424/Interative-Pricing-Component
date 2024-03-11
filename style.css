@@ -247,3 +247,41 @@ input:checked + .slider_check::before {
   font-weight: 600;
   font-size: 0.9rem;
 }
+
+@media screen and (max-width: 640px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+  }
+  .title h1 {
+    font-size: 1.7rem;
+  }
+  .title p {
+    font-size: 0.9rem;
+  }
+  .pricing #dollar-sign {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .pricing #monthly-price {
+    font-size: 2rem;
+    display: inline;
+    font-weight: 700;
+  }
+  .pricing #yearly-price {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .pricing #zero {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .pricing #month {
+    font-size: 0.8rem;
+  }
+  .price_container h3 {
+    font-size: 0.8rem;
+  }
+}
