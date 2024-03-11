@@ -8,8 +8,6 @@ yearlyPrice.innerHTML = slider.value * 12 * 0.25;
 
 slider.addEventListener("input", () => {
   output.innerHTML = slider.value;
-  const color = hsl(`${value}, 100%, 50%`);
-  slider.style.background = `linear-gradient(to right, ${color} 0%, ${color} ${value}%, #f0f0f0 ${value}%, #f0f0f0 100%)`;
 });
 slider.addEventListener("input", () => {
   yearlyPrice.innerHTML = slider.value * 12 * 0.25;
